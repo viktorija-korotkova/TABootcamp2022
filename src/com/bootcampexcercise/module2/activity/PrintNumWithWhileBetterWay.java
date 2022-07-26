@@ -1,6 +1,6 @@
 package com.bootcampexcercise.module2.activity;
 
-public class WhileLoop {
+public class PrintNumWithWhileBetterWay {
     public static void main(String[] args) {
         // Print all even numbers less than 100
         int i = 0;
