@@ -5,10 +5,12 @@ public class WhileLoop {
         // Print all even numbers less than 100
         int i = 0;
         while (i < 100) {
-            System.out.println("The odd number less than 100 is " + i);
-            i = i + 2;
-
-            //TODO: write code to Print all odd numbers less than 100
+            if (i % 2 != 0) {
+                System.out.println("The odd number less than 100 is " + i);
+            } else {
+                System.out.println("The even number less than 100 is " + i);
+            }
+            ++i;
         }
 
     }
