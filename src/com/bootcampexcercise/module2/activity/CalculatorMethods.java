@@ -1,9 +1,5 @@
 package com.bootcampexcercise.module2.activity;
-//add = сложение
-//subtraction - вычитание
-//multiply - умножение
-//divide - деление
-// есть заданные числа и заданный массив с числами, все операции проводятся на этих элементах
+
 public class CalculatorMethods {
     public static void main(String[] args) {
         int x = 10;
